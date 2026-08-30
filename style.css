@@ -1,0 +1,186 @@
+/* =========================================
+   CONFIGURACIÓN GENERAL
+   ========================================= */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #222222;
+}
+
+
+/* =========================================
+   ENCABEZADO
+   ========================================= */
+
+header {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #1f2937;
+    color: white;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+
+/* =========================================
+   NAVEGACIÓN
+   ========================================= */
+
+nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 15px;
+    background-color: white;
+}
+
+nav a {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+/* =========================================
+   CONTENIDO PRINCIPAL
+   ========================================= */
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+/* =========================================
+   SECCIONES
+   ========================================= */
+
+section {
+    background-color: white;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    padding: 25px;
+    margin-bottom: 30px;
+}
+
+
+/* =========================================
+   IMÁGENES
+   ========================================= */
+
+figure {
+    margin: 20px 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+
+/* =========================================
+   FORMULARIO
+   ========================================= */
+
+form div {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-family: inherit;
+}
+
+textarea {
+    resize: vertical;
+}
+
+
+/* =========================================
+   BOTÓN
+   ========================================= */
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2563eb;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1d4ed8;
+}
+
+
+/* =========================================
+   ACCESIBILIDAD: FOCO DEL TECLADO
+   ========================================= */
+
+a:focus,
+input:focus,
+textarea:focus,
+button:focus {
+    outline: 3px solid #f59e0b;
+    outline-offset: 2px;
+}
+
+
+/* =========================================
+   PIE DE PÁGINA
+   ========================================= */
+
+footer {
+    padding: 25px;
+    text-align: center;
+    background-color: #1f2937;
+    color: white;
+}
+
+
+/* =========================================
+   DISEÑO RESPONSIVE
+   ========================================= */
+
+@media (max-width: 600px) {
+
+    header {
+        padding: 35px 15px;
+    }
+
+    main {
+        padding: 15px;
+    }
+
+    section {
+        padding: 20px;
+    }
+
+}
